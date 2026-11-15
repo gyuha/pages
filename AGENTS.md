@@ -50,6 +50,7 @@ python3 scripts/discover-pages.py --check
 - URL은 `https://`로 통일합니다.
 - **비공개 저장소는 넣지 않습니다.** 이 페이지는 공개 쇼케이스입니다.
 - 새 카테고리가 필요하면 `_data/sites.yml`의 최상위 항목으로 추가합니다. `id`는 URL anchor로 쓰이므로 영문 소문자·하이픈으로 정합니다. (`blog`, `games`, `tools`, `dev`, `docs`는 기존 anchor이므로 유지)
+- 새 카테고리에는 `color`를 지정합니다. 페이지의 점·태그·hover 색에 쓰입니다. 기존 색: `blog #3f6b52`, `games #a9492a`, `tools #3f5d8c`, `dev #866526`, `docs #7a4568`.
 - 사이트 개수, 카테고리 개수, 카테고리 nav는 `index.md`의 Liquid가 자동 계산합니다. **숫자를 직접 고치지 않습니다.**
 
 ### 3. 로컬 빌드 확인
@@ -120,7 +121,7 @@ curl -s https://gyuha.com/pages/ | grep -o '<title>[^<]*</title>'
 | `index.md` | 페이지 본문. 카테고리·카드·검색 UI를 Liquid로 렌더링 |
 | `_data/sites.yml` | **사이트 목록 데이터. 콘텐츠 수정은 여기서만** |
 | `assets/css/style.scss` | 스타일. 테마 CSS를 import한 뒤 덮어씀 |
-| `assets/js/filter.js` | 이름·설명·태그 검색 |
+| `assets/js/filter.js` | 검색, 카드 등장, sticky 툴바 |
 | `scripts/discover-pages.py` | Pages 사이트 수집·비교 스크립트 |
 | `_config.yml` | Jekyll 설정 |
 | `README.md` | 사람이 보는 간단한 안내 |

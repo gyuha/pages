@@ -3,6 +3,7 @@
 # name: 화면에 보이는 이름 / url: 주소 / desc: 한 줄 설명 / tag: 기술·성격 표시
 
 - id: blog
+  color: "#3f6b52"
   name: 블로그 · 기록
   description: 생각과 일상을 쌓아 두는 공간
   sites:
@@ -20,6 +21,7 @@
       tag: Life
 
 - id: games
+  color: "#a9492a"
   name: 게임
   description: 브라우저에서 바로 즐기는 작은 세계들
   sites:
@@ -49,6 +51,7 @@
       tag: Game
 
 - id: tools
+  color: "#3f5d8c"
   name: 도구 · 유틸리티
   description: 직접 쓰려고 만든 작고 실용적인 도구들
   sites:
@@ -74,6 +77,7 @@
       tag: PWA
 
 - id: dev
+  color: "#866526"
   name: 개발 · 기술
   description: 에이전트, MCP, 라이브러리 실험
   sites:
@@ -95,6 +99,7 @@
       tag: jQuery
 
 - id: docs
+  color: "#7a4568"
   name: 문서 · 프로토타입
   description: 정책 문서와 실험적인 웹 프로토타입
   sites:
