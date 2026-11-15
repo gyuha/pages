@@ -25,3 +25,9 @@ jekyll serve
 ```
 
 기본 주소는 <http://localhost:4000>입니다.
+
+## 배포
+
+에이전트에게 "배포해줘"라고 말하면 [`AGENTS.md`](AGENTS.md)의 절차에 따라
+Pages 사이트를 다시 수집하고 `_data/sites.yml`을 갱신한 뒤 배포합니다.
+
