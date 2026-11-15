@@ -1,0 +1,108 @@
+# 페이지 모음 데이터
+# 새 사이트를 추가할 때는 해당 카테고리의 sites 목록에 항목을 추가하면 됩니다.
+# name: 화면에 보이는 이름 / url: 주소 / desc: 한 줄 설명 / tag: 기술·성격 표시
+
+- id: blog
+  name: 블로그 · 기록
+  description: 생각과 일상을 쌓아 두는 공간
+  sites:
+    - name: 신규하 블로그
+      url: https://gyuha.com/
+      desc: 글과 프로젝트, 실험적인 시도들을 기록하는 개인 블로그.
+      tag: Blog
+    - name: IT News
+      url: https://it-news.gyuha.com/
+      desc: AI가 매일 정리해 주는 IT 뉴스.
+      tag: AI
+    - name: Life Log
+      url: https://life-log.gyuha.com/
+      desc: 일상과 기술을 함께 기록하는 라이프로그.
+      tag: Life
+
+- id: games
+  name: 게임
+  description: 브라우저에서 바로 즐기는 작은 세계들
+  sites:
+    - name: Heroes — 갈대 여울
+      url: https://gyuha.com/heroes/
+      desc: 대량의 병사가 3D 지형에서 싸우는 실시간 전략 게임.
+      tag: Three.js
+    - name: 영웅의 전장
+      url: https://gyuha.com/heroes-battlefield/
+      desc: 스무 개의 역사 전투를 지휘하는 3D 실시간 액션 전술 게임.
+      tag: Three.js
+    - name: 재의 군기
+      url: https://gyuha.com/banners-of-history/
+      desc: 당신의 군기를 세우고 역사의 전장을 지휘하는 역사 전투 게임.
+      tag: Three.js
+    - name: 전장의 깃발
+      url: https://gyuha.com/ansi-battle/
+      desc: 한국사의 네 전투를 소재로 한 실시간 액션·군단 지휘 게임.
+      tag: JavaScript
+    - name: MOSSBOUND — 숲의 수호자
+      url: https://gyuha.com/monk/
+      desc: 픽셀 캐릭터와 3D 마을이 만나는 HD-2D 서바이버 게임.
+      tag: Game
+    - name: 타이핑오피스
+      url: https://gyuha.com/typing-office/
+      desc: 사무실 업무를 소재로 한 한국어 타자 연습 웹 게임.
+      tag: Game
+
+- id: tools
+  name: 도구 · 유틸리티
+  description: 직접 쓰려고 만든 작고 실용적인 도구들
+  sites:
+    - name: Twin Deck
+      url: https://gyuha.com/twin-deck/
+      desc: 키보드로 쓰는 듀얼 패널 파일 관리자. F5 복사, F6 이동.
+      tag: macOS
+    - name: 짤 검색기
+      url: https://gyuha.com/jjal/
+      desc: 짤(밈) 이미지를 빠르게 찾아보는 검색 도구.
+      tag: Tool
+    - name: 3D 포즈 라이브러리
+      url: https://gyuha.com/pose-library/
+      desc: 3D 캐릭터 포즈를 골라 쓰는 포즈 라이브러리.
+      tag: 3D
+    - name: 한글 코딩 폰트 합치기
+      url: https://gyuha.com/hangeul-coding-font/
+      desc: 한글과 영문 폰트를 합쳐 코딩 폰트를 만드는 웹 도구.
+      tag: Web
+    - name: JIRA Helper
+      url: https://gyuha.com/gitlab-jira-helper/
+      desc: JIRA 티켓 번호와 커밋 메시지를 만들어 주는 PWA.
+      tag: PWA
+
+- id: dev
+  name: 개발 · 기술
+  description: 에이전트, MCP, 라이브러리 실험
+  sites:
+    - name: forge
+      url: https://gyuha.com/forge/
+      desc: Claude Code를 위한 에이전트 엔지니어링 워크플로우 플러그인.
+      tag: Claude Code
+    - name: MCP Report
+      url: https://gyuha.com/mcp-report/
+      desc: 행동심리학 연구를 다루는 MCP 프로젝트.
+      tag: MCP
+    - name: MCP SQLite3
+      url: https://gyuha.com/mcp-sqlite3/
+      desc: Sakila 샘플 데이터베이스의 SQLite3 포트.
+      tag: SQLite
+    - name: jQuery PanelSlider
+      url: https://gyuha.com/jquery-panelslider/
+      desc: 페이지까지 함께 슬라이드하는 사이드 패널 슬라이더 플러그인.
+      tag: jQuery
+
+- id: docs
+  name: 문서 · 프로토타입
+  description: 정책 문서와 실험적인 웹 프로토타입
+  sites:
+    - name: Privacy
+      url: https://gyuha.com/privacy/
+      desc: 앱별 개인정보처리방침을 모아 둔 페이지.
+      tag: Docs
+    - name: Talklish
+      url: https://gyuha.com/talklish/
+      desc: Talklish 웹 프로토타입.
+      tag: Prototype
