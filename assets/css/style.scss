@@ -60,6 +60,29 @@ header p {
   font-size: 13.5px;
 }
 
+header .view {
+  margin-top: 12px;
+}
+
+header .view a {
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+header .view a:hover,
+header .view a:focus {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+header .view small {
+  color: var(--muted);
+  font-size: 12px;
+}
+
 section {
   float: none;
   width: auto;
