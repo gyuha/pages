@@ -128,6 +128,8 @@ header .view a:focus {
 }
 
 header .view small {
+  display: inline;
+  margin-left: 4px;
   color: var(--muted);
   font-size: 11.5px;
 }

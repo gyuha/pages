@@ -131,5 +131,7 @@ curl -s https://gyuha.com/pages/ | grep -o '<title>[^<]*</title>'
 - `_config.yml`의 `theme`를 바꾸면 `assets/css/style.scss`의 `@import "{{ site.theme }}"`도 함께 확인합니다.
 - GitHub Pages의 프로젝트 사이트이므로 자산 경로는 `/pages/...`가 됩니다. `relative_url` 필터를 유지합니다.
 - `jekyll-theme-minimal`의 기본 `footer`는 fixed 사이드바 위치라 CSS에서 static으로 덮어쓰고 있습니다. 이 override를 지우면 footer가 본문 위에 겹칩니다.
+- GitHub Pages의 legacy Sass 빌드는 `@supports selector(...)`를 처리하지 못해 빌드가 10분 넘게 멈추다 실패합니다. 이 문법을 쓰지 말고, 스크롤바 스타일은 `::-webkit-scrollbar` 규칙을 그대로 둡니다.
+- `color-mix()`, `clamp()`, `min()`, `:focus-visible` 등 최신 CSS는 사용해도 되지만, 빌드가 이상하게 오래 걸리면 먼저 Sass가 해석하는 문법을 의심합니다.
 - 저장소가 많아 API 호출 수가 많습니다. 인증 토큰은 `gh auth token`을 사용하고, 스크립트의 동시 요청 수를 과도하게 올리지 않습니다.
 - 비밀값, 토큰, 비공개 저장소 정보를 이 저장소에 커밋하지 않습니다.
