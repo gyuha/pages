@@ -67,6 +67,10 @@
       url: https://gyuha.com/pose-library/
       desc: 3D 캐릭터 포즈를 골라 쓰는 포즈 라이브러리.
       tag: 3D
+    - name: Grayscale 3D Print
+      url: https://gyuha.com/grayscale-3d-print/
+      desc: 이미지를 레이어 두께로 표현해 3D 프린트용 3MF로 만드는 도구.
+      tag: 3D Print
     - name: 한글 코딩 폰트 합치기
       url: https://gyuha.com/hangeul-coding-font/
       desc: 한글과 영문 폰트를 합쳐 코딩 폰트를 만드는 웹 도구.
