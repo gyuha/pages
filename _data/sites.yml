@@ -49,6 +49,10 @@
       url: https://gyuha.com/typing-office/
       desc: 사무실 업무를 소재로 한 한국어 타자 연습 웹 게임.
       tag: Game
+    - name: 모루와 세리
+      url: https://gyuha.com/smith/
+      desc: 검을 두드려 값을 올리고 사흘마다 찾아오는 세리에게 세금을 바치는 대장간 게임.
+      tag: Game
 
 - id: tools
   color: "#3f5d8c"
