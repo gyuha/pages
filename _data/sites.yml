@@ -19,6 +19,10 @@
       url: https://life-log.gyuha.com/
       desc: 일상과 기술을 함께 기록하는 라이프로그.
       tag: Life
+    - name: Game Dev Log
+      url: https://gyuha.com/game-dev/
+      desc: 게임 개발 정보와 기술 튜토리얼, 개발 일지를 모으는 블로그.
+      tag: Game Dev
 
 - id: games
   color: "#a9492a"
