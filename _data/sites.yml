@@ -11,10 +11,6 @@
       url: https://gyuha.com/
       desc: 글과 프로젝트, 실험적인 시도들을 기록하는 개인 블로그.
       tag: Blog
-    - name: IT News
-      url: https://it-news.gyuha.com/
-      desc: AI가 매일 정리해 주는 IT 뉴스.
-      tag: AI
     - name: Life Log
       url: https://life-log.gyuha.com/
       desc: 일상과 기술을 함께 기록하는 라이프로그.
@@ -67,10 +63,6 @@
       url: https://gyuha.com/twin-deck/
       desc: 키보드로 쓰는 듀얼 패널 파일 관리자. F5 복사, F6 이동.
       tag: macOS
-    - name: 짤 검색기
-      url: https://gyuha.com/jjal/
-      desc: 짤(밈) 이미지를 빠르게 찾아보는 검색 도구.
-      tag: Tool
     - name: 3D 포즈 라이브러리
       url: https://gyuha.com/pose-library/
       desc: 3D 캐릭터 포즈를 골라 쓰는 포즈 라이브러리.
@@ -83,10 +75,6 @@
       url: https://gyuha.com/hangeul-coding-font/
       desc: 한글과 영문 폰트를 합쳐 코딩 폰트를 만드는 웹 도구.
       tag: Web
-    - name: JIRA Helper
-      url: https://gyuha.com/gitlab-jira-helper/
-      desc: JIRA 티켓 번호와 커밋 메시지를 만들어 주는 PWA.
-      tag: PWA
     - name: 강호여지도
       url: https://gyuha.com/murim/
       desc: 무협소설의 무림을 인터랙티브 벡터 지도로 구현한 프로젝트.
@@ -101,14 +89,6 @@
       url: https://gyuha.com/forge/
       desc: Claude Code를 위한 에이전트 엔지니어링 워크플로우 플러그인.
       tag: Claude Code
-    - name: MCP Report
-      url: https://gyuha.com/mcp-report/
-      desc: 행동심리학 연구를 다루는 MCP 프로젝트.
-      tag: MCP
-    - name: MCP SQLite3
-      url: https://gyuha.com/mcp-sqlite3/
-      desc: Sakila 샘플 데이터베이스의 SQLite3 포트.
-      tag: SQLite
     - name: jQuery PanelSlider
       url: https://gyuha.com/jquery-panelslider/
       desc: 페이지까지 함께 슬라이드하는 사이드 패널 슬라이더 플러그인.
