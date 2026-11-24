@@ -20,7 +20,7 @@
       desc: 일상과 기술을 함께 기록하는 라이프로그.
       tag: Life
     - name: Game Dev Log
-      url: https://gyuha.com/game-dev/
+      url: https://game.gyuha.com/
       desc: 게임 개발 정보와 기술 튜토리얼, 개발 일지를 모으는 블로그.
       tag: Game Dev
 
@@ -87,6 +87,10 @@
       url: https://gyuha.com/gitlab-jira-helper/
       desc: JIRA 티켓 번호와 커밋 메시지를 만들어 주는 PWA.
       tag: PWA
+    - name: 강호여지도
+      url: https://gyuha.com/murim/
+      desc: 무협소설의 무림을 인터랙티브 벡터 지도로 구현한 프로젝트.
+      tag: Map
 
 - id: dev
   color: "#866526"
