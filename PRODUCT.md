@@ -20,7 +20,7 @@ GitHub Pages로 만든 공개 사이트를 한 페이지에 모아, 방문자가
 
 ## Operating Context
 
-- 정적 Jekyll 사이트로 GitHub Pages에서 호스팅되며 <https://gyuha.com/pages/>에 배포된다.
+- 정적 Jekyll 사이트로 GitHub Pages에서 호스팅되며 <https://pages.gyuha.com/>에 배포된다.
 - 사이트 목록은 `_data/sites.yml`이 단일 소스이고, 카테고리·설명·태그를 함께 관리한다.
 - `scripts/discover-pages.py`가 공개 저장소의 Pages 설정을 수집해 목록과 비교한다.
 - 운영자는 "배포해줘" 요청 시 수집 → 목록 갱신 → 빌드 → push → 배포 확인 순서로 갱신한다. (`AGENTS.md`)

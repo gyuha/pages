@@ -2,7 +2,7 @@
 
 이 저장소는 **GitHub Pages로 만든 사이트들을 카테고리별로 모아 보여 주는 단일 페이지**입니다.
 
-- 배포 주소: <https://gyuha.com/pages/>
+- 배포 주소: <https://pages.gyuha.com/>
 - 저장소: <https://github.com/gyuha/pages>
 - GitHub Pages 설정: `main` 브랜치 `/` (legacy Jekyll 빌드)
 - 테마: `jekyll-theme-minimal`
@@ -98,11 +98,11 @@ done
 그다음 실제 페이지를 확인합니다.
 
 ```sh
-curl -sI https://gyuha.com/pages/
-curl -s https://gyuha.com/pages/ | grep -o '<title>[^<]*</title>'
+curl -sI https://pages.gyuha.com/
+curl -s https://pages.gyuha.com/ | grep -o '<title>[^<]*</title>'
 ```
 
-- HTML은 Cloudflare 캐시(`max-age=600`)를 타므로, 방금 배포한 내용이 안 보이면 `https://gyuha.com/pages/?v=2`처럼 쿼리를 붙여 확인합니다.
+- HTML 캐시 때문에 방금 배포한 내용이 안 보이면 `https://pages.gyuha.com/?v=2`처럼 쿼리를 붙여 확인합니다.
 - 새 사이트 링크가 모두 200인지 확인합니다. 실패한 링크는 결과 보고에 적습니다.
 
 ### 6. 결과 보고
@@ -112,7 +112,7 @@ curl -s https://gyuha.com/pages/ | grep -o '<title>[^<]*</title>'
 - 추가한 사이트와 카테고리
 - 수정·삭제한 항목 (삭제는 사전 확인을 받은 경우만)
 - 접속 실패 또는 DNS 문제가 있는 링크
-- 배포 주소: <https://gyuha.com/pages/>
+- 배포 주소: <https://pages.gyuha.com/>
 
 ## 파일 구조
 
@@ -129,7 +129,8 @@ curl -s https://gyuha.com/pages/ | grep -o '<title>[^<]*</title>'
 ## 주의사항
 
 - `_config.yml`의 `theme`를 바꾸면 `assets/css/style.scss`의 `@import "{{ site.theme }}"`도 함께 확인합니다.
-- GitHub Pages의 프로젝트 사이트이므로 자산 경로는 `/pages/...`가 됩니다. `relative_url` 필터를 유지합니다.
+- 커스텀 도메인 `pages.gyuha.com`으로 서비스되므로 자산 경로는 `/assets/...`가 됩니다. `relative_url` 필터를 유지합니다.
+- `CNAME` 파일은 `pages.gyuha.com`이어야 하며, Cloudflare DNS에 `pages` CNAME → `gyuha.github.io`(프록시 끔) 레코드가 있어야 합니다. 도메인을 바꾸면 이 두 곳을 함께 수정합니다.
 - `jekyll-theme-minimal`의 기본 `footer`는 fixed 사이드바 위치라 CSS에서 static으로 덮어쓰고 있습니다. 이 override를 지우면 footer가 본문 위에 겹칩니다.
 - GitHub Pages의 legacy Sass 빌드는 `@supports selector(...)`를 처리하지 못해 빌드가 10분 넘게 멈추다 실패합니다. 이 문법을 쓰지 말고, 스크롤바 스타일은 `::-webkit-scrollbar` 규칙을 그대로 둡니다.
 - `color-mix()`, `clamp()`, `min()`, `:focus-visible` 등 최신 CSS는 사용해도 되지만, 빌드가 이상하게 오래 걸리면 먼저 Sass가 해석하는 문법을 의심합니다.

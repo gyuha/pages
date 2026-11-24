@@ -2,7 +2,7 @@
 
 GitHub Pages로 만든 사이트를 카테고리별로 모아 보여 주는 페이지입니다.
 
-- 사이트: <https://gyuha.com/pages/>
+- 사이트: <https://pages.gyuha.com/>
 - 사이트 목록: [`_data/sites.yml`](_data/sites.yml)
 - 스타일: [`assets/css/style.scss`](assets/css/style.scss)
 
