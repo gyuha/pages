@@ -53,6 +53,10 @@
       url: https://gyuha.com/smith/
       desc: 검을 두드려 값을 올리고 사흘마다 찾아오는 세리에게 세금을 바치는 대장간 게임.
       tag: Game
+    - name: "STORM: First Lightning"
+      url: https://gyuha.com/flight/
+      desc: 섬과 협곡 위를 나는 8v8 픽셀아트 제트기 공중전 게임.
+      tag: WebGL2
 
 - id: tools
   color: "#3f5d8c"
