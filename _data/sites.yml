@@ -57,6 +57,10 @@
       url: https://gyuha.com/flight/
       desc: 섬과 협곡 위를 나는 8v8 픽셀아트 제트기 공중전 게임.
       tag: WebGL2
+    - name: Small Magic
+      url: https://gyuha.com/spell-magic/
+      desc: 초원에서 아홉 가지 주문으로 겨루는 마법사 결투 게임.
+      tag: Game
 
 - id: tools
   color: "#3f5d8c"
